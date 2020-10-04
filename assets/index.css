@@ -12,8 +12,10 @@
     width: 30px;
     height: 30px;
     background-image: url('../images/birds.png');
+    transition: top .3s linear;
 }
 .start{
+    cursor: pointer;
     position: absolute;
     top: 295px;
     left: 50%;
@@ -39,6 +41,7 @@
     font-size: 24px;
     color: #fff;
     font-weight: bolder;
+    display: none;
 }
 .mask{
     position: absolute;
@@ -48,6 +51,7 @@
     bottom: 0;
     background-color: #000;
     opacity: .7;
+    display: none;
 }
 .end{
     position: absolute;
@@ -55,6 +59,7 @@
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
+    display: none;
 }
 .end .over{
     font-size: 35px;
